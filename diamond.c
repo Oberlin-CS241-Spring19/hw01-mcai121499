@@ -45,6 +45,8 @@ int main(){
   for(int z = 1; z < i; z++){
     printf(" ");
   }
-  printf("*\n");
+  if(i > 1){
+    printf("*\n");
+  }
   return 0;
 }
