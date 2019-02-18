@@ -16,7 +16,7 @@ int main(int argc, char**argv){
       int shift = atoi(argv[1]);
       int i = input + shift;
       putchar(i);
-      input = getchar()
+      input = getchar();
     }
   }
       
